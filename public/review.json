@@ -4,41 +4,41 @@
     "name": "John Doe",
     "rating": 5,
     "comment": "Great products! Highly recommend.",
-    "avatar": "https://via.placeholder.com/50"
+    "avatar": "https://i.ibb.co.com/7t5ZQcjP/tutor-8-3.jpg"
   },
   {
     "id": 2,
     "name": "Jane Smith",
     "rating": 4,
     "comment": "Good quality and fast shipping.",
-    "avatar": "https://via.placeholder.com/50"
+    "avatar": "https://i.ibb.co.com/yFQwQzTr/speaker-1.jpg"
   },
   {
     "id": 3,
     "name": "Michael Lee",
     "rating": 5,
     "comment": "Excellent service and amazing products!",
-    "avatar": "https://via.placeholder.com/50"
+    "avatar": "https://i.ibb.co.com/zVKZQHwz/MLEE-Headshot-Outside.jpg"
   },
   {
     "id": 4,
     "name": "Emily Johnson",
     "rating": 4,
     "comment": "Products arrived on time and in perfect condition.",
-    "avatar": "https://via.placeholder.com/50"
+    "avatar": "https://i.ibb.co.com/Fqn5h3Ss/MV5-BMTc5-MDg0-NDEx-MV5-BMl5-Ban-Bn-Xk-Ft-ZTYw-Nj-Qx-Nz-Az-V1-FMjpg-UX1000.jpg"
   },
   {
     "id": 5,
     "name": "David Brown",
     "rating": 5,
     "comment": "Very satisfied with my purchase. Will buy again!",
-    "avatar": "https://via.placeholder.com/50"
+    "avatar": "https://i.ibb.co.com/nqtNCXQd/david-Brown01-600x.jpg"
   },
   {
     "id": 6,
     "name": "Sophia Wilson",
     "rating": 5,
     "comment": "Top-notch quality and excellent customer support.",
-    "avatar": "https://via.placeholder.com/50"
+    "avatar": "https://i.ibb.co.com/rR0jwTbN/250305-sophia-smith-olympics-mn-1305-7127d1.webp"
   }
 ]

@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AuthContext } from "@/Context/AuthContext";
 
 export default function SocialLogIn() {
+  const { googleLogin } = useContext(AuthContext);
+
+  const handleGoogleLogin = async () => {
+    try {
+      await googleLogin();
+    } catch (error) {
+      alert(error.message);
+    }
+  };
+
   return (
     <div>
       <button
+        onClick={handleGoogleLogin}
         type="submit"
         name="action"
         value="google"

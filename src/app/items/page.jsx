@@ -52,8 +52,8 @@ export default function Items() {
         >
           <option value="all">All Categories</option>
           <option value="electronics">Electronics</option>
-          <option value="fashion">Fashion</option>
-          <option value="home">Home</option>
+          <option value="accessory">Accessory</option>
+          <option value="gaming">Gaming</option>
         </select>
       </div>
 
@@ -73,6 +73,7 @@ export default function Items() {
             </div>
             <div className="p-5">
               <h2 className="text-2xl font-semibold mb-2">{item.title}</h2>
+              <p className="text-gray-500 mb-4">{item.category}</p>
               <p className="text-gray-600 mb-3">
                 {item.description.split(" ").slice(0, 12).join(" ")}
                 {item.description.split(" ").length > 12 ? "....." : ""}

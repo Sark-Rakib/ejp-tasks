@@ -38,6 +38,7 @@ export default function FeaturedProducts() {
               />
             </div>
             <h3 className="text-lg font-semibold">{item.title}</h3>
+            <p className="text-gray-500 mb-4">{item.category}</p>
             <p className="text-gray-600 mb-3">
               {item.description.split(" ").slice(0, 12).join(" ")}
               {item.description.split(" ").length > 12 ? "....." : ""}

@@ -2,6 +2,7 @@ import Navbar from "@/Component/Navbar";
 import Footer from "@/Component/Footer";
 import ClientProvider from "./ClientProvider";
 import "./globals.css";
+import { AuthProvider } from "@/Context/AuthContext";
 
 export const metadata = {
   title: "EJP Tasks",
@@ -12,11 +13,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <ClientProvider>
-          <Navbar />
-          {children}
-          <Footer />
-        </ClientProvider>
+        <AuthProvider>
+          <ClientProvider>
+            <Navbar />
+            {children}
+            <Footer />
+          </ClientProvider>
+        </AuthProvider>
       </body>
     </html>
   );

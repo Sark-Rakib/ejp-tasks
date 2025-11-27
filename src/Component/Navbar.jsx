@@ -1,8 +1,11 @@
 "use client";
+import { AuthContext } from "@/Context/AuthContext";
+import button from "daisyui/components/button";
 import Link from "next/link";
-import React from "react";
+import React, { useContext } from "react";
 
 export default function Navbar() {
+  const { user, logout } = useContext(AuthContext);
   return (
     <div className="w-11/12 mx-auto mt-5 sticky top-5 z-50 rounded-full px-5 navbar bg-base-100 shadow-sm">
       <div className="navbar-start ">
@@ -44,9 +47,15 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href="/login" className="btn">
-          Login
-        </Link>
+        {user ? (
+          <button onClick={logout} className="btn">
+            LogOut
+          </button>
+        ) : (
+          <Link href="/login" className="btn">
+            Login
+          </Link>
+        )}
       </div>
     </div>
   );

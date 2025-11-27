@@ -2,7 +2,11 @@
 const nextConfig = {
   reactCompiler: true,
   images: {
-    domains: ["via.placeholder.com", "encrypted-tbn0.gstatic.com"], // add all remote domains you use
+    domains: [
+      "via.placeholder.com",
+      "encrypted-tbn0.gstatic.com",
+      "i.ibb.co.com",
+    ], // add all remote domains you use
   },
 };
 

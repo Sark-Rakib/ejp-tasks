@@ -1,11 +1,15 @@
 "use client";
 
 import SocialLogIn from "@/Component/SocialLogIn";
+import { AuthContext } from "@/Context/AuthContext";
 import Link from "next/link";
-import React from "react";
+import { useRouter } from "next/navigation";
+import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 
 export default function Login() {
+  const { login } = useContext(AuthContext);
+  const router = useRouter();
   const {
     register,
     handleSubmit,
@@ -13,9 +17,10 @@ export default function Login() {
   } = useForm();
 
   const handleLogin = (data) => {
-    signInUser(data.email, data.password)
+    login(data.email, data.password)
       .then((res) => {
         console.log(res.user);
+        router.push("/");
       })
       .catch((err) => {
         console.log(err.message);

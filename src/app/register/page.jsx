@@ -2,10 +2,13 @@
 
 import SocialLogIn from "@/Component/SocialLogIn";
 import Link from "next/link";
-import React from "react";
+import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
+import { AuthContext } from "@/Context/AuthContext";
 
 export default function Register() {
+  const { signup } = useContext(AuthContext);
+
   const {
     register,
     handleSubmit,
@@ -14,7 +17,7 @@ export default function Register() {
 
   const handleRegister = (data) => {
     console.log(data);
-    registerUser(data.email, data.password)
+    signup(data.email, data.password)
       .then((res) => {
         console.log(res.user);
       })
