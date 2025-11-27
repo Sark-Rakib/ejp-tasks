@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "image": "https://via.placeholder.com/150",
+    "title": "Wireless Headphones",
+    "description": "High quality wireless headphones with noise cancellation, deep bass, long-lasting battery, and comfortable ear cushions for extended listening sessions. Perfect for music lovers, gamers, and travelers who want premium sound experience.",
+    "price": "$59.99",
+    "category": "electronics"
+  },
+  {
+    "id": 2,
+    "image": "https://via.placeholder.com/150",
+    "title": "Smart Watch",
+    "description": "Stylish smartwatch with heart rate monitor, GPS tracking, sleep monitoring, customizable watch faces, and notification alerts. Stay connected, track fitness goals, and monitor your health in real-time with this advanced wearable device.",
+    "price": "$79.99",
+    "category": "electronics"
+  },
+  {
+    "id": 3,
+    "image": "https://via.placeholder.com/150",
+    "title": "Portable Speaker",
+    "description": "Compact Bluetooth speaker with amazing sound quality, deep bass, waterproof design, and long-lasting battery. Take your music anywhere, enjoy outdoor parties, or enhance your home audio experience effortlessly.",
+    "price": "$39.99",
+    "category": "electronics"
+  },
+  {
+    "id": 4,
+    "image": "https://via.placeholder.com/150",
+    "title": "Gaming Mouse",
+    "description": "Ergonomic gaming mouse with customizable buttons, RGB lighting, adjustable DPI, and high-precision sensor for competitive gaming. Designed to provide comfort and performance for hours of gameplay.",
+    "price": "$29.99",
+    "category": "gaming"
+  },
+  {
+    "id": 5,
+    "image": "https://via.placeholder.com/150",
+    "title": "Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard with tactile switches, anti-ghosting keys, programmable macros, and durable design. Perfect for gamers and professionals seeking precise and satisfying typing experience.",
+    "price": "$89.99",
+    "category": "gaming"
+  },
+  {
+    "id": 6,
+    "image": "https://via.placeholder.com/150",
+    "title": "Laptop Stand",
+    "description": "Adjustable aluminum laptop stand that improves posture, enhances airflow, and provides stability for work or study. Lightweight and foldable for easy portability between office, home, and cafes.",
+    "price": "$25.99",
+    "category": "accessory"
+  },
+  {
+    "id": 7,
+    "image": "https://via.placeholder.com/150",
+    "title": "Fitness Tracker",
+    "description": "Track your daily steps, calories burned, heart rate, and sleep patterns with this stylish fitness tracker. Water-resistant and compatible with iOS and Android devices for easy fitness monitoring on the go.",
+    "price": "$49.99",
+    "category": "electronics"
+  },
+  {
+    "id": 8,
+    "image": "https://via.placeholder.com/150",
+    "title": "Smartphone Case",
+    "description": "Durable phone case with shock absorption, scratch protection, and slim design. Provides full access to all ports and buttons while keeping your device safe from everyday accidents.",
+    "price": "$14.99",
+    "category": "accessory"
+  },
+  {
+    "id": 9,
+    "image": "https://via.placeholder.com/150",
+    "title": "Wireless Charger",
+    "description": "Fast wireless charging pad compatible with all Qi-enabled devices. Compact, sleek design with temperature control and safety features ensures efficient and safe charging at home or office.",
+    "price": "$19.99",
+    "category": "electronics"
+  },
+  {
+    "id": 10,
+    "image": "https://via.placeholder.com/150",
+    "title": "VR Headset",
+    "description": "Immersive virtual reality headset for gaming, movies, and virtual experiences. High-resolution display, wide field of view, comfortable design, and precise tracking for an unparalleled VR experience.",
+    "price": "$129.99",
+    "category": "gaming"
+  }
+]

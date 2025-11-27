@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "rating": 5,
+    "comment": "Great products! Highly recommend.",
+    "avatar": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "rating": 4,
+    "comment": "Good quality and fast shipping.",
+    "avatar": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 3,
+    "name": "Michael Lee",
+    "rating": 5,
+    "comment": "Excellent service and amazing products!",
+    "avatar": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 4,
+    "name": "Emily Johnson",
+    "rating": 4,
+    "comment": "Products arrived on time and in perfect condition.",
+    "avatar": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 5,
+    "name": "David Brown",
+    "rating": 5,
+    "comment": "Very satisfied with my purchase. Will buy again!",
+    "avatar": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 6,
+    "name": "Sophia Wilson",
+    "rating": 5,
+    "comment": "Top-notch quality and excellent customer support.",
+    "avatar": "https://via.placeholder.com/50"
+  }
+]
